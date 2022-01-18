@@ -1,0 +1,85 @@
+whitelist: 
+ - 
+  host: xxx
+  tag: 普通备份
+  ip: xxx
+  port: 873
+  service: rsync
+  remark: 限源
+ - 
+  host: xxx
+  tag: 普通备份
+  ip: xxx
+  port: 873
+  service: rsync
+  remark: 限源
+ - 
+  host: xxx
+  tag: 普通备份
+  ip: xxx
+  port: 873
+  service: rsync
+  remark: 限源
+ - 
+  host: xxx
+  tag: 普通备份
+  ip: xxx
+  port: 873
+  service: rsync
+  remark: 限源
+ - 
+  host: xxx
+  tag: 日志中心
+  ip: xxx
+  port: 873
+  service: rsync
+  remark: 限源
+ - 
+  host: xxx
+  tag: xx手游
+  ip: xxx
+  port: 21
+  service: ftp
+  remark: 传包用
+ - 
+  host: xxx
+  tag: 跳板机
+  ip: xxx
+  port: 30022
+  service: ssh
+  remark: 跳板机
+ - 
+  host: xxx
+  tag: 审计日志
+  ip: xxx
+  port: 3306
+  service: mysql
+  remark: 忽略
+ - 
+  host: xxx
+  tag: 普通网站
+  ip: xxx
+  port: 3400
+  service: mysql
+  remark: 海外查询用
+ - 
+  host: xxx
+  tag: 厦门 idc
+  ip: xxx
+  port: 873
+  service: rsync
+  remark: 远程备份使用 
+ - 
+  host: xxx
+  tag: 支撑工具组
+  ip: xxx
+  port: 21
+  service: ftp
+  remark: 收集玩家上传的错误日志
+ - 
+  host: xxx
+  tag: IT组
+  ip: xxx
+  port: 22
+  service: ssh
+  remark: jbt部门用的跳板机

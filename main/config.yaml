@@ -1,0 +1,6 @@
+mysql: 
+ username: scan 
+ password: 脱敏啦
+ host: localhost
+ port: 3306
+ database: Scanresult
