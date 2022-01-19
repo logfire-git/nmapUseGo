@@ -34,7 +34,6 @@ func main(){
 	// 父 routine 要等待子 routine 完结
 	var waitgp sync.WaitGroup
 	eachline:=read.Readline(*cli.Path)
-	// 生成对 ip 文件的闭包函数
 	var writeto func(string,string,string,string,[]string)
 	var file *os.File
 	start:=time.Now()
