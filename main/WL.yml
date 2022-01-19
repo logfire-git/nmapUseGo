@@ -64,7 +64,7 @@ whitelist:
   remark: 海外查询用
  - 
   host: xxx
-  tag: 厦门 idc
+  tag:  idc 机房
   ip: xxx
   port: 873
   service: rsync
@@ -82,4 +82,4 @@ whitelist:
   ip: xxx
   port: 22
   service: ssh
-  remark: jbt部门用的跳板机
+  remark: 部门用的跳板机
