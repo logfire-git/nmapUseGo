@@ -31,9 +31,10 @@ func main(){
 	var maxroutinenum int=*cli.Rate
 	// 创建扫描协程的状态通知信道,最大缓存为 maxroutinenum 值
 	var ch chan int=make(chan int,maxroutinenum)
-	// 生成对 ip 文件的闭包函数
+	// 父 routine 要等待子 routine 完结
 	var waitgp sync.WaitGroup
 	eachline:=read.Readline(*cli.Path)
+	// 生成对 ip 文件的闭包函数
 	var writeto func(string,string,string,string,[]string)
 	var file *os.File
 	start:=time.Now()
