@@ -13,7 +13,7 @@
 * output [输出路径]
 * rate [线程数] 默认 10 个
 * scan [可选参数，扫描所有端口]
-* whitelist [白名单路径]]
+* whitelist [白名单路径]
 
 
 
