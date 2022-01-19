@@ -9,14 +9,12 @@
 * 利用 goroutine 和 chan 控制
 
 ## 用法
-  -ippath [ip 清单路径]
-  -output [输出路径]
-  -rate [线程数]
-    	Default scan threads 10 个，建议不要超过 50 (default 10)
-  -scan [可选参数]
-    	Scan all ports
-  -whitelist [可选参数]
-    	Whitelist path
+* ippath [ip 清单路径]
+* output [输出路径]
+* rate [线程数] 默认 10 个
+* scan [可选参数，扫描所有端口]
+* whitelist [白名单路径]]
+
 
 
 ## 其他
